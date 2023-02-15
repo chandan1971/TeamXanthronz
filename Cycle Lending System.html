@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycle Lending System</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        header::before
+        {
+            background-image: url('https://cdn.pixabay.com/photo/2020/05/25/07/39/background-5217311__480.jpg');
+            background-size: cover;
+            background-repeat: no-repeat; 
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 150%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        .left
+        {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 10px;
+        }
+        .mid
+        {
+            display: block;
+            width: 32%;
+            margin: 38px 405px;
+            
+        }
+        .right
+        {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            display: inline-block;
+        }
+        .logo
+        {
+            width: 78px;
+            height: 77px;
+            border-radius: 50px;
+            border: 2px solid black;
+        }
+        .logo:hover{
+            cursor: pointer;
+            border-color: white;
+        }
+        .navbar li
+        {
+            display: inline-block;
+            font-size: 18px;
+            font-family: fantasy;
+            
+        }
+        .navbar li a{
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px;
+            list-style-type: disc solid white;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            color: rgb(8, 36, 61);
+            text-decoration: underline;
+            padding: 10px;
+            list-style-type: disc solid white;
+        }
+        .btn
+        {
+            color: black;
+            padding: 6px 5px;
+            margin: 10px 11px;
+            font-family: sans-serif;
+            cursor: pointer;
+            background-color: rgb(206, 100, 14);
+        }
+        .btn:hover
+        {
+            color: white;
+            border-color: white;
+        }
+        .container
+        {
+            display: inline-block;
+            position: absolute;
+            top: 151px;
+            left: 56px;
+            border: 4px solid white;
+            padding: 10px 11px;
+            width: 23%;
+            margin: 3px 3px;
+            height: 257px;
+            border-radius: 26px;
+            color: rgb(2, 17, 30);
+            font-family: cursive;
+        }
+        .form-group
+        {
+            display: block;
+            width: 33%;
+            color: rgb(194, 227, 12);
+            align-items: center;
+        }
+        .form-group ::placeholder
+        {
+            color: rgb(196, 224, 15);
+        }
+        .aboutus
+        {
+            display: inline-block;
+            float: right;
+            width: 39%;
+            height: 33%;
+            color: #f6db0c;
+            padding: 12px 50px;
+            margin: -1px 7px;
+            top: 0px;
+            font-family: cursive;
+        }
+        #inputid
+        {
+            border-radius: 12px;
+            background-color: inherit;
+            color: rgb(196, 224, 15);
+        }
+        #inputpass
+        {
+            border-radius: 12px;
+            background-color: inherit;
+            color: rgb(196, 224, 15);
+        }
+        .heading
+        {
+            color: black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="Image Not Found" class="logo">
+        </div>
+        <!-- for navigation -->
+        <div class="mid">
+            <ul class="navbar" >
+                <li><a href="$">Home</a></li>
+                <li><a href="$">Issue Bike</a></li>
+                <li><a href="$">Services</a></li>
+                <li><a href="$">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">FAQ</button>
+        </div>
+    </header>
+    <div class="container">
+       <h1> Sign In</h1>
+       <form action="mera.php">
+            <div class="form-group">
+               User ID :<input type="text" name="User ID" placeholder=" User ID /E-mail" id="inputid">
+            </div>
+            <div class="form-group">
+                PassWord :<input type="text" name="PassWord" placeholder="Enter Your PassWord" id="inputpass">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+            <button class="btn">
+                Sign Up
+            </button>
+       </form>
+    </div>
+    <div class="aboutus">
+        <h1 class="heading">About Us</h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda natus, perferendis fugiat cum saepe nam voluptate qui, odit nulla maxime praesentium minima unde deserunt officia in. Earum, nihil deserunt. Illo, voluptas molestiae quos placeat quas, ipsam veniam obcaecati harum itaque expedita rerum pariatur eius magni illum nam vel porro ducimus cumque accusantium, facilis fuga voluptatibus quisquam eaque. Doloremque obcaecati laboriosam, aut tenetur eius recusandae delectus, dolorem nisi architecto repellendus enim, consequatur dolorum sit ipsam? Inventore assumenda accusantium at obcaecati ad maiores explicabo aliquid iste, sint, magni maxime est reprehenderit facilis rerum repudiandae doloremque ten Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla exercitationem amet fugiat id, consectetur, corrupti adipisci dolore similique ex odit sed esse expedita dolores! In eos quas rem? Commodi eveniet fugit ad laboriosam similique at cupiditate distinctio doloremque ullam. Provident, alias. Commodi, fugit error. Perferendis harum explicabo aspernatur, quas sunt dicta ab beatae non optio doloribus. Qui mollitia quibusdam officia! Ducimus, assumenda? Saepe rem labore assumenda nesciunt soluta totam perspiciatis numquam at? Voluptate culpa, commodi ab architecto quasi rem, fugit ducimus nulla magni nisi. 
+    </div>
+</body>
+</html>
+-     https://dscnita2022.tech/ring/sauron/index.html
